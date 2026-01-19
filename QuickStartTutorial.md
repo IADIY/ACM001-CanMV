@@ -1,11 +1,13 @@
 # ACM001 Quick Start Tutorial
 
 ## Run Your First Example on ACM001
+The following script
 ```
 print("testing")
 ```
 
 ## UART Commnuication
+The following script
 ```
 from machine import UART
 from machine import FPIOA
@@ -30,6 +32,7 @@ while True:
 ```
 
 ## Run Your First AI Model on ACM001
+The following script
 ```
 from libs.PipeLine import PipeLine
 from libs.AIBase import AIBase
