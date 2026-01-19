@@ -22,7 +22,10 @@ uart=UART(UART.UART2,115200) #Configure Baudrate
 
 
 while True:
-    uart.write('Testing')#发送一条数据
+    text = uart.read(32)
+    if text:
+        print(text)
+    uart.write('Testing')
     time.sleep(0.1) #100ms
 
 ```
