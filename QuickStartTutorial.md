@@ -1,10 +1,5 @@
 # ACM001 Quick Start Tutorial
-
-## 1. Install CanMV IDE
-
-Please follow the official instructions to install the [CanMV IDE](https://www.kendryte.com/en/resource/ide,k230) on your laptop. This IDE is specifically designed to develop and debug Python scripts for the K230-based ACM001 hardware.
-
-## 2. Flash the System Image
+## 1. Flash the System Image
 
 To prepare your ACM001 for its first boot:
 
@@ -12,6 +7,16 @@ To prepare your ACM001 for its first boot:
 2. Download the [image file]() for ACM001 **.img** file from the provided resource link.
 3. Use a flashing tool (such as BalenaEtcher or Win32DiskImager) to write the `.img` file to the SD card.
 4. Insert the card into the ACM001 slot and power on the device.
+
+## 2. Connect ACM001 to CanMV IDE
+### CanMV IDE Installation
+
+Please follow the official instructions to install the [CanMV IDE](https://www.kendryte.com/en/resource/ide,k230) on your laptop. This IDE is specifically designed to develop and debug Python scripts for the K230-based ACM001 hardware.
+
+### Connect ACM001 to your computer
+
+Please connect ACM001 to your computer with two USB Ports as shown in the following image:
+[]()
 
 ## 3. Run Your First Example
 
