@@ -2,7 +2,7 @@
 
 ## 1. Install CanMV IDE
 
-Please follow the official instructions to install the **CanMV IDE** on your laptop. This IDE is specifically designed to develop and debug Python scripts for the K230-based ACM001 hardware.
+Please follow the official instructions to install the [CanMV IDE](https://www.kendryte.com/en/resource/ide,k230) on your laptop. This IDE is specifically designed to develop and debug Python scripts for the K230-based ACM001 hardware.
 
 ## 2. Flash the System Image
 
