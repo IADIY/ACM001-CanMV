@@ -15,8 +15,7 @@ Please follow the official instructions to install the [CanMV IDE](https://www.k
 
 ### Connect ACM001 to your computer
 
-Please connect ACM001 to your computer with two USB Ports as shown in the following image:
-[]()
+Please connect ACM001 to your computer over two USB cables.
 
 ## 3. Run Your First Example
 
