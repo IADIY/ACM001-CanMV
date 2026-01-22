@@ -214,3 +214,6 @@ if __name__ == "__main__":
         pl.destroy()
 
 ```
+
+For further information(Python API, Example, IDE), please visit the official [documentation](https://www.kendryte.com/k230_canmv/en/main/index.html)
+
