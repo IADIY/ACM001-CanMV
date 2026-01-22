@@ -20,12 +20,12 @@ Please connect ACM001 to your computer over two USB cables.
 ## 3. Run Your First Example
 
 Once the device is connected to the CanMV IDE, you can verify the connection by running this simple script:
-
+Before running the code, you first need to open a code file in the editor. Once the file is open, click the “Run” button at the bottom left to run the current file. For example, when running the print('cool') code, the output cool will be displayed in the serial terminal.
 ```python
-print("testing")
+print("cool")
 
 ```
-
+![](ide-4.png)
 ---
 
 ## 4. UART Communication
