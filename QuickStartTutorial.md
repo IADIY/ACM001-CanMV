@@ -4,8 +4,8 @@
 To prepare your ACM001 for its first boot:
 
 1. Prepare a **Micro SD card** (Class 10 or higher is recommended).
-2. Download the [image file]() for ACM001 **.img** file from the provided resource link.
-3. Use a flashing tool (such as BalenaEtcher or Win32DiskImager) to write the `.img` file to the SD card.
+2. Download the [image file](https://drive.google.com/file/d/1tEXIpkWGTMnGrNFrlngonsHkIB-k90gc/view?usp=drive_link) for ACM001 **.img** file from the provided resource link.
+3. Use a [flashing tool](https://drive.google.com/file/d/1tzLAZv9YU90UY3_GhxZIzeGX_PcaMhgb/view?usp=drive_link) to write the `.img` file to the SD card.
 4. Insert the card into the ACM001 slot and power on the device.
 
 ## 2. Connect ACM001 to CanMV IDE
