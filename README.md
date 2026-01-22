@@ -9,4 +9,4 @@ ACM001: https://www.iadiy.com/ai-camera-module/6TOPs-Compact-Size-K230-AI-Camera
 
 CanMV: https://www.kendryte.com/k230_canmv/en/main/index.html
 
-Quick Start Tutoril: 
+Quick Start Tutoril: QuickStartTutorial.md
