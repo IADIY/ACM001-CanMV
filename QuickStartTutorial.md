@@ -215,5 +215,55 @@ if __name__ == "__main__":
 
 ```
 
+## 6. Show the Image on the LCD Screen
+```
+'''
+Experiment Name: Three Image Display Methods
+Experimental Platform: 01Studio CanMV K230 + 3.5-inch MIPI Screen
+Description: Capture camera images and display them via IDE, HDMI, and MIPI screen
+'''
+
+import time, os, sys
+
+from media.sensor import *  # Import sensor module to use camera-related interfaces
+from media.display import *  # Import display module to use display-related interfaces
+from media.media import *  # Import media module to use media-related interfaces
+
+sensor = Sensor()  # Create a camera object
+sensor.reset()  # Reset and initialize the camera
+
+# sensor.set_framesize(Sensor.FHD)  # Set frame size to FHD (1920x1080), for buffer and HDMI, default channel 0
+sensor.set_framesize(width=800, height=480)  # Set frame size to 800x480, dedicated for LCD, default channel 0
+sensor.set_pixformat(Sensor.RGB565)  # Set output image format, default channel 0
+
+#################################
+## Three different image display methods (modify comments to enable)
+#################################
+
+# Display.init(Display.VIRT, sensor.width(), sensor.height(), to_ide=True)  # Display image via IDE buffer
+# Display.init(Display.LT9611, to_ide=True)  # Display image via HDMI
+Display.init(Display.ST7701, to_ide=True)  # Display image via 01Studio 3.5-inch MIPI display
+
+MediaManager.init()  # Initialize media resource manager
+
+sensor.run()  # Start the sensor
+
+clock = time.clock()
+
+while True:
+
+    ####################
+    ## Write main code here
+    ####################
+    clock.tick()
+
+    img = sensor.snapshot()  # Capture one image
+
+    Display.show_image(img)  # Display the image
+
+    print(clock.fps())  # Print FPS
+```
+```
+
 For further information(Python API, Example, IDE), please visit the official [documentation](https://www.kendryte.com/k230_canmv/en/main/index.html)
 
