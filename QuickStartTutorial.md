@@ -276,6 +276,7 @@ while True:
 
     print(clock.fps())  # Print FPS
 ```
+## 7. Official Documentation
 
 For further information(Python API, Example, IDE), please visit the official [documentation](https://www.kendryte.com/k230_canmv/en/main/index.html)
 
