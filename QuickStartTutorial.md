@@ -9,7 +9,7 @@
 4. [UART Communication](#4-uart-communication)
 5. [Run Your First AI Model](#5-run-your-first-ai-model)
 6. [Show the Image on the LCD Screen](#6-show-the-image-on-the-lcd-screen)
-7. [Official Documentation](#official-documentation)
+7. [Official Documentation](#7-official-documentation)
 
 
 ## 1. Flash the System Image
