@@ -216,7 +216,7 @@ if __name__ == "__main__":
 ```
 
 ## 6. Show the Image on the LCD Screen
-```
+```python
 '''
 Experiment Name: Three Image Display Methods
 Experimental Platform: 01Studio CanMV K230 + 3.5-inch MIPI Screen
@@ -262,7 +262,6 @@ while True:
     Display.show_image(img)  # Display the image
 
     print(clock.fps())  # Print FPS
-```
 ```
 
 For further information(Python API, Example, IDE), please visit the official [documentation](https://www.kendryte.com/k230_canmv/en/main/index.html)
